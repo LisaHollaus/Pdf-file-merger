@@ -1,8 +1,8 @@
 import PyPDF2
 import os
 
-# Setting the base directory to the directory containing the PDF files
-base_directory = r"C:\Users\lisah\OneDrive - IMC\IMC\Semester 2"
+# Setting the base directory to the directory containing the PDF files or subdirectories
+base_directory = r"C:\Users\lisah\OneDrive - IMC\IMC"
 
 # Loop through all the directories and subdirectories in the base directory
 for root, dirs, files in os.walk(base_directory):
